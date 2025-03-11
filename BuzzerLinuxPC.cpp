@@ -106,7 +106,7 @@
         console_fd = open("/dev/console", O_RDONLY);
         if (console_fd == -1) 
         {
-            errorMessage = "Error Buzzer: Can not open /dev/console.";
+            errorMessage = "Can not open /dev/console.";
             return false;
         }
 
